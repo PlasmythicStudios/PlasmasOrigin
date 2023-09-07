@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "net.prangellplays.plasmasorigin.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"PlasmasOriginMixin",
+		"api.ShieldBlockedMinxin",
+		"api.ShieldDisabledMixin",
+		"api.PlasmythicShieldMixin",
+		"gameplay.ShieldDelayMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
