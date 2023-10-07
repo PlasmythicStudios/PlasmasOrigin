@@ -1,5 +1,13 @@
 {
   "item.plasmasorigin.plasmythic_shield": "Plasmythic Shield",
   "item.plasmasorigin.plasmythic_scythe": "Plasmythic Scythe",
-  "item.plasmasorigin.thermostatic_steel": "Thermostatic Steel"
+  "item.plasmasorigin.thermostatic_steel": "Thermostatic Steel",
+
+  "block.plasmasorigin.plasmythic_leaves": "Plasmythic Leaves",
+  "block.plasmasorigin.plasmythic_planks": "Plasmythic Planks",
+  "block.plasmasorigin.plasmythic_log": "Plasmythic Log",
+  "block.plasmasorigin.plasmythic_wood": "Plasmythic Wood",
+  "block.plasmasorigin.stripped_plasmythic_log": "Stripped Plasmythic Log",
+  "block.plasmasorigin.stripped_plasmythic_wood": "Stripped Plasmythic Wood",
+  "block.plasmasorigin.plasmythic_sapling": "Plasmythic Sapling"
 }

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "plasmasorigin:block/plasmythic_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "plasmasorigin:block/plasmythic_log"
+    },
+    "axis=z": {
+      "model": "plasmasorigin:block/plasmythic_log_horizontal",
+      "x": 90
+    }
+  }
+}

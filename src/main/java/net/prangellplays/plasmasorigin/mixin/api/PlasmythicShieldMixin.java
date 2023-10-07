@@ -39,7 +39,7 @@ public abstract class PlasmythicShieldMixin extends LivingEntity {
     @Shadow public abstract ItemCooldownManager getItemCooldownManager();
 
 
-    private boolean isUsingItem(Item plasmythicShield) {
+    private boolean isUsingItem(Item CPV2) {
         return false;
     }
 

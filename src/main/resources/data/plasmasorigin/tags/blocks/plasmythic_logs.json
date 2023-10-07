@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "plasmasorigin:plasmythic_log",
+    "plasmasorigin:plasmythic_wood",
+    "plasmasorigin:stripped_plasmythic_log",
+    "plasmasorigin:stripped_plasmythic_wood"
+  ]
+}

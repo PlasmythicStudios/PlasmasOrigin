@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "plasmasorigin:block/stripped_plasmythic_log",
+    "side": "plasmasorigin:block/stripped_plasmythic_log"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "plasmasorigin:block/stripped_plasmythic_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "plasmasorigin:block/stripped_plasmythic_wood"
+    },
+    "axis=z": {
+      "model": "plasmasorigin:block/stripped_plasmythic_wood",
+      "x": 90
+    }
+  }
+}

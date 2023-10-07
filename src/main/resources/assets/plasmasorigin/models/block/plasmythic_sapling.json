@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "plasmasorigin:block/plasmythic_sapling"
+  }
+}
