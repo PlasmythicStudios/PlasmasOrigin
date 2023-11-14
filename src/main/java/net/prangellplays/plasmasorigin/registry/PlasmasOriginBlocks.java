@@ -17,6 +17,7 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.prangellplays.plasmasorigin.PlasmasOrigin;
+import net.prangellplays.plasmasorigin.world.tree.PlasmythicSaplingGenerator;
 
 public class PlasmasOriginBlocks {
 
@@ -32,6 +33,8 @@ public class PlasmasOriginBlocks {
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_WARPED_HYPHAE).sounds(BlockSoundGroup.WOOD).strength(4.0f).requiresTool().sounds(BlockSoundGroup.WOOD)), ItemGroups.BUILDING_BLOCKS);
     public static final Block STRIPPED_PLASMYTHIC_WOOD = registerBlock("stripped_plasmythic_wood",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_WARPED_HYPHAE).sounds(BlockSoundGroup.WOOD).strength(4.0f).requiresTool().sounds(BlockSoundGroup.WOOD)), ItemGroups.BUILDING_BLOCKS);
+    public static final Block PLASMYTHIC_SAPLING = registerBlock("plasmythic_sapling",
+            new SaplingBlock(new PlasmythicSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)), ItemGroups.NATURAL);
 
 
     private static Block registerBlock(String name, Block block, RegistryKey<ItemGroup> group) {

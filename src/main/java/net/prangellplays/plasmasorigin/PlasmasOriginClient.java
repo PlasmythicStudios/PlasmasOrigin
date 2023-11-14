@@ -12,6 +12,7 @@ public class PlasmasOriginClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(PlasmasOriginBlocks.PLASMYTHIC_LEAVES, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(PlasmasOriginBlocks.PLASMYTHIC_SAPLING, RenderLayer.getCutout());
     }
 
     private static float blockingPredicate(ItemStack stack, World level, LivingEntity user, int i) {

@@ -18,7 +18,7 @@ import net.prangellplays.plasmasorigin.item.PlasmythicShieldItem;
 
 public class PlasmasOriginItems {
     public static final Item PLASMYTHIC_SHIELD = registerItem("plasmythic_shield", new PlasmythicShieldItem(new FabricItemSettings().maxDamage(0).maxCount(1).fireproof()));
-    public static final Item PLASMYTHIC_SCYTHE = registerItem("plasmythic_scythe", new PlasmythicScytheItem(PlasmasToolMaterials.THERMOSTATIC_STEEL, 7, -2.8f, new FabricItemSettings().fireproof().rarity(Rarity.EPIC)));
+    public static final Item PLASMYTHIC_SCYTHE = registerItem("plasmythic_scythe", new PlasmythicScytheItem(PlasmasToolMaterials.THERMOSTATIC_STEEL, 8, -2.8f, new FabricItemSettings().fireproof().rarity(Rarity.EPIC)));
     public static final Item THERMOSTATIC_STEEL = registerItem("thermostatic_steel", new Item(new FabricItemSettings().fireproof()));
 
     private static void addItemsToCombatItemGroup(FabricItemGroupEntries entries) {

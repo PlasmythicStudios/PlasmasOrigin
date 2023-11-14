@@ -1,14 +1,14 @@
-package net.prangellplays.plasmasorigin.world.feature;
+package net.prangellplays.plasmasorigin.world;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
-import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.ConstantIntProvider;
-import net.minecraft.world.gen.feature.*;
+import net.minecraft.world.gen.feature.ConfiguredFeature;
+import net.minecraft.world.gen.feature.Feature;
+import net.minecraft.world.gen.feature.FeatureConfig;
+import net.minecraft.world.gen.feature.TreeFeatureConfig;
 import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
 import net.minecraft.world.gen.foliage.BlobFoliagePlacer;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
@@ -17,15 +17,18 @@ import net.prangellplays.plasmasorigin.PlasmasOrigin;
 import net.prangellplays.plasmasorigin.registry.PlasmasOriginBlocks;
 
 public class PlasmasOriginConfiguredFeatures {
+
     public static final RegistryKey<ConfiguredFeature<?, ?>> PLASMYTHIC_KEY = registerKey("plasmythic");
 
-    public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
-        register(context, PLASMYTHIC_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
-                BlockStateProvider.of(PlasmasOriginBlocks.PLASMYTHIC_LOG),
-                new StraightTrunkPlacer(5, 6, 3),
+    public static void boostrap(Registerable<ConfiguredFeature<?, ?>> context) {
+    register(context, PLASMYTHIC_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+            BlockStateProvider.of(PlasmasOriginBlocks.PLASMYTHIC_LOG),
+                new StraightTrunkPlacer(5, 4, 3),
+
                 BlockStateProvider.of(PlasmasOriginBlocks.PLASMYTHIC_LEAVES),
-                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 4),
-                new TwoLayersFeatureSize(1, 0, 2)).build());
+            new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(1), 2),
+
+            new TwoLayersFeatureSize(1, 0, 2)).build());
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {

@@ -24,7 +24,6 @@ import net.minecraft.world.gen.foliage.FoliagePlacerType;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
 import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
 import net.minecraft.world.gen.trunk.TrunkPlacerType;
-import net.prangellplays.plasmasorigin.block.PlasmythicSaplingBlock;
 import net.prangellplays.plasmasorigin.callbacks.PlasmasOriginCallbacks;
 import net.prangellplays.plasmasorigin.mixin.PlasmasOriginMixin;
 import net.prangellplays.plasmasorigin.registry.PlasmasOriginBlocks;
