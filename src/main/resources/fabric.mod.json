@@ -22,6 +22,9 @@
 		],
 		"client": [
 			"net.prangellplays.plasmasorigin.PlasmasOriginClient"
+		],
+		"fabric-datagen": [
+			"net.prangellplays.plasmasorigin.PlasmasOriginDataGenerator"
 		]
 	},
 	"mixins": [
